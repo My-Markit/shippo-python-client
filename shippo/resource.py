@@ -608,3 +608,7 @@ class Batch(CreateableAPIResource, FetchableAPIResource):
     def class_url(cls):
         cls_name = cls.class_name()
         return "v1/%ses/" % (cls_name,)
+
+
+class Order(CreateableAPIResource, ListableAPIResource, FetchableAPIResource):
+    pass

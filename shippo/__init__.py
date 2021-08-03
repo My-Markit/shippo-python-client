@@ -5,6 +5,7 @@ from shippo.resource import (
     CustomsDeclaration,
     CustomsItem,
     Manifest,
+    Order,
     Parcel,
     Rate,
     Refund,
